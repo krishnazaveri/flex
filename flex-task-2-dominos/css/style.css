@@ -1,0 +1,153 @@
+*{ box-sizing: border-box; margin: 0px; padding: 0px;}
+
+a { cursor: pointer;}
+
+
+/* header css start */
+
+
+.header {
+    background-color:rgb(0, 102, 167);
+    padding: 5px 25px;
+    /* text-align: right; */
+    color: white;
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    top: 0px;
+}
+
+.header span { 
+        color: lightblue; 
+        margin: 5px 5px 0 5px;
+    }
+
+.header .fa-user { margin:5px 0 0 10px; font-size: 20px;}
+
+.header h4 { 
+    margin: 0px 18px; 
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 8px;
+    color: lightblue;
+}
+
+/* header css end */
+
+
+.content {
+    width:100%;
+    /* height: 300px; 
+    border: 1px solid;*/
+    display: flex;
+   /*  flex-wrap: wrap; */
+    height: 400px;
+}
+
+.content .left { 
+    width: 50%; 
+    /* height: 300px; 
+       border: 5px solid red; */
+    background-image: url(images/home_search.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding:75px;
+}
+
+.content .logo {
+    width: 330px;
+    height: 55px;
+}
+
+.content h4 {
+     margin: 13px 0 0 0;
+     padding: 0px;
+     color: grey;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 14px;
+    
+}
+
+.content .logo img { 
+    height: 100%; 
+    width: 100%;
+}
+
+.content .radio {
+    margin: 20px 0 0 0;
+    color: rgb(0, 102, 167);
+    font-size: 13px;
+}
+
+.content .radio span { 
+    margin-left: 5px;
+}
+.content .radio input { 
+    color:rgb(0, 102, 167); 
+    margin-left: 3px;
+}
+
+.content .left .location {
+    position: relative;
+}
+.content .left .location input { 
+    outline: none; 
+    border: 1px solid rgb(0, 102, 167); 
+    padding: 10px 5px 10px 35px; 
+    color: rgb(0, 102, 167);
+    margin-top: 15px;
+    width: 430px;
+}
+
+.content .left .location .fa-location-dot { 
+    position: absolute; 
+    top: 25px; 
+    left: 8px;
+    color: rgb(0, 102, 167);
+}
+
+.content .left .location button {
+    position: absolute; 
+    top: 18px; 
+    right: 63px;
+    background-color: rgb(0, 171, 0);
+    color: white;
+    border: none;
+    padding: 8px 5px 8px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.content .left .location .fa-location-crosshairs {
+    position: absolute;
+    top: 25px;
+    right: 147px;
+    color: white;
+}
+
+.content .right { 
+    width: 50%; 
+    /* height: 300px; 
+    border: 5px solid green;*/
+}
+
+.content .right .right-top { 
+    width: 100%;
+    height: 80%; 
+    
+}
+
+.content .right .right-botm { 
+    width: 100%;
+    height: 20%;
+    padding-top: 10px; 
+
+}
+
+.content .right img { height: 100%; width: 100%;}
